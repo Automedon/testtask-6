@@ -1,5 +1,5 @@
 {
-  "name": "testtask#6",
+  "name": "testtask6",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,13 +19,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build docs",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://automedon.github.io/testtask-6/",
   "browserslist": {
     "production": [
       ">0.2%",
