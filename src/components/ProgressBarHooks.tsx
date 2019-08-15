@@ -27,7 +27,7 @@ function ProgressBar1() {
 
     return (
         <div className='fixed-bottom'>
-        <ProgressBar animated now={time} label={`${(time / 33.34).toFixed(0)}sec`}/>
+            {time<100&&<ProgressBar animated now={time} label={`${(time / 33.34).toFixed(0)}sec`}/>}
     {time > 100 && <CloseButton>Close</CloseButton>}
     </div>
     );
