@@ -9,7 +9,7 @@ const Section = styled.div`
     background:url(${img2})  no-repeat  center/cover ;
     width: 100vw;
     height: 100vh;
-    @media screen and (min-width: 600px){
+    @media screen and (min-width: 569px){
       background:url(${img1}) no-repeat  center/cover ;
     }
 `;
